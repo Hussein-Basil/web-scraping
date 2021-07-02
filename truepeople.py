@@ -5,6 +5,7 @@ import xlsxwriter
 import time
 import random
 
+
 PATH = "C:/SeleniumDrivers/Chrome/91/chromedriver.exe"
 driver = webdriver.Chrome(executable_path=PATH)
 
