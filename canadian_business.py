@@ -22,6 +22,7 @@ def get_free_proxies():
 			continue
 	return proxies
 
+
 def set_proxy(driver, proxy):
 
    cap = webdriver.DesiredCapabilities.CHROME.copy()
